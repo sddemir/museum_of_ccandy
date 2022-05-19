@@ -1,0 +1,30 @@
+body {background-color: #f5d9df;
+    font-family: "Nunito", sans-serif;}
+    
+    #mainNavbar .navbar-brand{color: red;}
+    
+    #mainNavbar .nav-link:hover {color: red;}
+    
+    #mainNavbar .nav-link {color: white;}
+    
+    #mainNavbar {font-size: 1.5em; 
+        font-weight: 100 ;}
+    h1 {color: white; 
+    font-weight: 100;
+    font-size: 2.7rem;}
+    #headingGroup span {color: red;
+    font-weight: 300;}
+    @media (max-width:1200px) {
+        h1 {color: white; 
+            font-weight: 100;
+            font-size: 2.2rem;}
+    }
+    .secsatır h2 {color: red;
+    font-weight: 100;
+    font-size: 2.5rem;}
+    .secsatır p {color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;}
+    .navbar.scrolled {background: rgb(222,192,222);
+    transition: background 600ms;}
